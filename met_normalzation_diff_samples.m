@@ -16,7 +16,7 @@ con_num = 11;% set the first con_num constantly methylated GC as control
 
 for k = 3
     %% read unnormalized reads and control reads; create empty matrix for saving data
-    name1 = list1{2,1};% select the control sample name from the list
+    name1 = list1{2,1};% select the control sample name from the list, 17R was used as control for all other samples
     name2 = list2{k,1};% select the sample which needs to be normalized
     data = load([fname, 'Pacbio_analysis/re_start/matrix/matrix_comb_',name1,'_trimmed_more.mat']);%load GC matrix of WT sample, C in GC is 1, T in GC is -1, other nucleotides are 0.
     data2 = load([fname, 'Pacbio_analysis/202006_comb/matrix/unnormalized/matrix_',name2,'.mat']);
