@@ -1,3 +1,5 @@
+ %% this code was used to combine technical replicates or normalized biological replicates. 
+ 
  %name1 = 'O2R3';
  %name2 = 'O3R3';
 % name1 = 'N1R3';
