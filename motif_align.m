@@ -1,4 +1,5 @@
 function real = motif_align(aseq,mot_pos,r)
+%% this function align the motif sequence in CCS and reference sequences
 
 mot = mot_pos.data(r).mot;% read the selected motif
 pos = mot_pos.data(r).pos;% read the positions of this motif
