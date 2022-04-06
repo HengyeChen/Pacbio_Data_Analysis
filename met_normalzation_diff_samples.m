@@ -1,4 +1,5 @@
 function met_normalzation_diff_samples()
+%% this function normalize methylation level of each sample to the the WT sample "17R". 
 
 %fname = '/storage/home/h/hxc62/work/';%define the home folder
 %addpath(fname);
@@ -12,7 +13,7 @@ list2 = [{'NR3C'};{'OR3C'};{'T2RC'}];
 motifs = load([fname, 'Pacbio_analysis/ref/motif_pos_v2.mat']);%read motif positions
 mkdir([fname, 'Pacbio_analysis/202006_comb/matrix/normalized']);%make folder to save nucleosome prediction data
 %%%%%%%%%%%%%%%%%%%%%
-con_num = 11;% set the first con_num constantly methylated GC as control
+con_num = 11;% set the first con_num constantly methylated GC as control. After nomalization, the methylation level in this region will be same for all samples.
 
 for k = 3
     %% read unnormalized reads and control reads; create empty matrix for saving data
