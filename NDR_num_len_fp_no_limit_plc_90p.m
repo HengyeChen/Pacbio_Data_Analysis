@@ -1,4 +1,6 @@
 function NDR_num_len_fp_no_limit_plc_90p()
+%%this function calculate NDR length and probability based on nucleosome prediction matrix
+
 %% initiate parameters
 %fname = '/storage/home/h/hxc62/work/';%define the home folder
 %addpath(fname);
