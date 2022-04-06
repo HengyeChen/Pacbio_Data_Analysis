@@ -1,4 +1,6 @@
 function updown_dyad()
+%% this function calculate the positions of the nucleosomes in the upstream and downstream of motifs
+
 %fname = '/storage/home/h/hxc62/work/';%define the home folder
 %addpath(fname);
 %fname = 'E:/d/Dropbox/';%set the home folder
