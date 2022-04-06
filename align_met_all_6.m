@@ -1,4 +1,5 @@
 %function align_met_all()
+%% this function align CCS to reference sequences
 
 fname = '/storage/home/h/hxc62/work/';%define the home folder
 addpath(fname);
