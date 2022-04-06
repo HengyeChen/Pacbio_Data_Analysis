@@ -1,4 +1,10 @@
-function [info4, infom] = nuc_predict_COMB_final_plc()%This version predict nuc-6 at the canonical place, when no methylated GC at the upstream of the sequence
+function [info4, infom] = nuc_predict_COMB_final_plc()
+
+%% this function predict nucleosomes based on methylation matrix
+%This version predict nuc-6 at the canonical place, when no methylated GC at the upstream of the sequence
+
+
+
 %% Parameter initiation
 %fname = '/storage/home/h/hxc62/work/';%define the home folder
 %addpath(fname);
