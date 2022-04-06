@@ -1,4 +1,6 @@
 function Pacbio_clustergram_short_final()
+%%This function generate heatmaps from methylation and nucleosome prediction matrix
+
 %% initiate parameters
 %fname = '/storage/home/h/hxc62/work/';%define the home folder
 %addpath(fname);
