@@ -1,4 +1,7 @@
 function rev2fw_header()
+%% this function generate reverse complimentary sequence of CCS for alignment
+
+
 %fname = '/storage/home/h/hxc62/work/';%define the home folder
 %addpath(fname);
 %fname = 'E:/Hengye/';
