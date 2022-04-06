@@ -1,8 +1,10 @@
 function  pbmatrix_hp_trim()
+%% This function convert aligned CCS to matrix and removed read with little GmCs.
+
 
 %list = [{'17D'};{'17R'};{'ID'}; {'IR'};{'ND'};{'NR'};{'TD'};{'TR'}];
 %list = [{'N1R3'};{'N3R3'};{'O2R3'};{'O3R3'};{'T2R3'};{'W4R3'}] ;
-list = [{'I2R2'};{'I3R2'};{'N2R2'}; {'N3R2'};{'T2D2'};{'T2R2'};{'W1R2'};{'W4R2'}];
+list = [{'I2R2'};{'I3R2'};{'N2R2'}; {'N3R2'};{'T2D2'};{'T2R2'};{'W1R2'};{'W4R2'}]; % the list of samples
 %C:\Users\BAI Lab
 folder = 'C:\Users\bailab\Dropbox';%
 %folder = 'E:\d\Dropbox';
