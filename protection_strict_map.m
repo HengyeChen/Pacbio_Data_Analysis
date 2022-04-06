@@ -1,4 +1,6 @@
 function maps = protection_strict_map(seqs)
+%% this function convert the methylation matrix to a protection matrix in which spaces between GmC are considered as exposed, and spaces between unmethylated GCs are protected.
+
 
 [len,~]=size(seqs);
 maps = zeros(len,1278);
