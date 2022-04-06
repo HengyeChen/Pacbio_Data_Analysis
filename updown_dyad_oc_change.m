@@ -1,4 +1,7 @@
 function updown_dyad_oc_change()
+%% this function calculated the change of position and occupancy of nucleosome -3 and -5.
+
+
 dbstop if error
 %fname = 'E:/d/Dropbox/';%set the home folder
 fname = 'C:\Users\bailab\Dropbox\';
