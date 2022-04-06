@@ -1,4 +1,6 @@
 function [shift_all,shift_dyad,m1] = peak_shift_COMB_motif_plc(seq,mpos,mot_up,mot_down,dyad_f,score_all_pos,ind,bd,c_limit,linker)
+%% this function optimizes the position of nucleosome
+
 %linker = 14;
 seq_t = seq;
 seq_t(seq_t>0)=0;
